@@ -1,5 +1,5 @@
 # Gauss-Elimination-CUDA
-Parallel implemetation of Gauss Elimination (thesis)\
+Parallel implemetation of Gauss Elimination (thesis)
 
 Way to run the program.
 
