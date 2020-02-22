@@ -1,11 +1,11 @@
 # Gauss-Elimination-CUDA
-Parallel implemetation of Gauss Elimination (thesis)
+Parallel implemetation of Gauss Elimination (thesis)\
 
-Way to run the program.
+Way to run the program.\
 
-1. For random array
-1.1 gcc ArrayProduction.c -o ArrayProduction (-std=c99 για cc=1.x)
-1.2 ./ArrayProduction x (x is the size of the array, x x (x+1) )
+1. For random array\
+1.1 gcc ArrayProduction.c -o ArrayProduction (-std=c99 για cc=1.x)\
+1.2 ./ArrayProduction x (x is the size of the array, x x (x+1) )\
 
 2. Gauss Reduction
 2.1 gcc -c Read_And_Write_Linear.c -lgmp (-std=c99 για cc=1.x)
