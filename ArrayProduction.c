@@ -28,7 +28,7 @@ int main(int argc , char *argv[])
 	 
 	 
 	
-		//δημιουργία του πίνακα με random 0 και 1
+		//δημιουργία του πίνακα με random αριθμούς από το 0 έως το 100
 		for(int i=0;i<size;i++)
 			{
 	
@@ -53,7 +53,7 @@ int main(int argc , char *argv[])
 			for( int b=0;b<cols;b++)
 			{
 				int c = b+a*cols;
-				int here = out_data[c] % 2;
+				int here = out_data[c] % 2; // mod 2  τον κάθε αριθμό για να δώσει είτε 0 είτε 1
 				fprintf(final, "%d", here);
 				// printf("c=%d \n",c);
 				//Για πίνακα χωρίς κενά με τις αγκίλες
